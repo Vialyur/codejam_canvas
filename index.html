@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <title>CodeJam - Canvas</title>
+    </head>
+    <body>
+            <div class="body">
+                    <header class="header">
+                        <div class="header_drop-down-menu"><img src="./assets/images/icon/three_lines.png" alt="drop-down-menu"></div>
+                        <h1 class="header_h1">CodeJam - Pallete</h1>
+                        <div class="header_drop-down-list"><img src="./assets/images/icon/three_points.png" alt="drop-dowm-list"></div>
+                    </header>
+                    <main class="main">
+                        <section class="tools_colors">
+                            <div class="tools">
+                                
+                                <div class="tools_elem">
+                                    <img class="tools_elem-icon" src="./assets/images/icon/paint_bucket.svg" alt="Paint bucket">
+                                    <span class="tools_elem-text">Paint bucket</span>
+                                </div>
+                                <div class="tools_elem">
+                                    <img class="tools_elem-icon" src="./assets/images/icon/choose_color.svg" alt="Choose color">
+                                    <span class="tools_elem-text">Choose color</span>
+                                </div>
+                                <hr>
+                                <div class="tools_elem">
+                                    <img class="tools_elem-icon" src="./assets/images/icon/move_tools.svg" alt="Move">
+                                    <span class="tools_elem-text">Move</span>
+                                </div>
+                                <div class="tools_elem">
+                                    <img class="tools_elem-icon" src="./assets/images/icon/transform.svg" alt="Transform">
+                                    <span class="tools_elem-text">Transform</span>
+                                </div>
+                                
+                            </div>
+                            <div class="colors">
+                                    <div class="colors_elem">
+                                        <div class="colors_elem-icon current"></div>
+                                        <span class="colors_elem-text">Current color</span>
+                                    </div>
+                                    <div class="colors_elem">
+                                        <div class="colors_elem-icon prev"></div>
+                                        <span class="colors_elem-text">Prev color</span>
+                                    </div>
+                                    <hr>
+                                    <div class="colors_elem">
+                                        <div class="colors_elem-icon first-color"></div>
+                                        <span class="colors_elem-text">red</span>
+                                    </div>
+                                    <div class="colors_elem">
+                                        <div class="colors_elem-icon second-color"></div>
+                                        <span class="colors_elem-text">blue</span>
+                                    </div>
+                                </div>
+                        </section>
+
+                        <section class="canvas">
+                            <canvas id="canvas" width = '512' height = '512'>Your brouser out of date. Update you browser for view</canvas>
+                        </section>
+                        
+                        <section class="switchField">
+                            <div class="switch_box">
+                                <input class="button" type="button" value="4x4">
+                            </div>
+                            <div class="switch_box">
+                                <input class="button" type="button" value="32x32">
+                            </div>
+                            <div class="switch_box">
+                                <input class="button" type="button" value="256x256">
+                            </div>
+                        </section>
+                    </main>
+            </div>
+        <script src="./script.js"></script>
+    </body> 
+</html> 
